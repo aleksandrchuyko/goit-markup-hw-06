@@ -649,9 +649,11 @@ address {
   height: 50px;
   padding: 15px 16px;
   margin-right: 12px;
+  outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
   border-radius: 4px;
+  color: var(--main-title-color);
 }
 
 .subscribe-mail::placeholder {
@@ -725,8 +727,8 @@ address {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 5px;
-  right: 4px;
+  top: 8px;
+  right: 8px;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -805,7 +807,7 @@ address {
   display: flex;
   justify-content: center;
 }
-.modal-check-text {
+.modal-input-field .modal-check-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
